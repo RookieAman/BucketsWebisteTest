@@ -4,7 +4,7 @@ import styles from '../../public/styles/home.module.css'
 export default function Home() {
   return (
     <main
-      className={`flex w-full min-h-screen flex-col items-center justify-center overflow-hidden p-8 md:p-24 ${styles.background}`}
+      className={`flex w-full min-h-[calc(100dvh)] flex-col items-center justify-center overflow-hidden p-8 md:p-24 ${styles.background}`}
     >
       <Image
         className="relative mb-10 md:mb-12 lg:mb-16 xl:mb-20 w-[140px] h-[39px] md:w-[240px] md:h-[60px] xl:w-[281px] xl:h-[78px]"
