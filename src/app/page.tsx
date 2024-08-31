@@ -4,7 +4,7 @@ import styles from '../../public/styles/home.module.css'
 export default function Home() {
   return (
     <main
-      className={`flex w-full min-h-[calc(100dvh)] flex-col items-center justify-center overflow-hidden p-8 md:p-24 ${styles.background}`}
+      className={`flex w-full min-h-[calc(100dvh)] flex-col items-center justify-start pt-[15vh] sm:mt-0 sm:justify-center overflow-hidden p-8 md:p-24 ${styles.background}`}
     >
       <Image
         className="relative mb-10 md:mb-12 lg:mb-16 xl:mb-20 w-[140px] h-[39px] md:w-[240px] md:h-[60px] xl:w-[281px] xl:h-[78px]"
@@ -17,8 +17,8 @@ export default function Home() {
       <h3 className="animate-pulse text-2xl md:3xl xl:text-5xl font-montserrat text-secondary mb-2 xl:mb-4">
         Coming soon
       </h3>
-      <h1 className="text-3xl md:text-5xl xl:text-8xl font-champBlack w-full max-w-[600px] xl:max-w-[900px] text-center mb-8 md:mb-12 lg:mb-16 xl:mb-20">
-        Out of this world chocolate
+      <h1 className="text-white text-3xl md:text-5xl xl:text-8xl font-champBlack w-full max-w-[600px] xl:max-w-[900px] text-center mb-8 md:mb-12 lg:mb-16 xl:mb-20">
+        Out-of-this-world Chocolate
       </h1>
       <a
         href="mailto:contact@bucketschocolate.com?subject=Hello%20Buckets!&body=Hello%20Buckets,%0D%0A%0D%0AI%20would%20like%20to%20get%20more%20information%20about%20your%20services.%0D%0A%0D%0AThank%20you%20in%20advance,"
